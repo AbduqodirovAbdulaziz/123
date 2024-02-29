@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Tirik mualliflarning kitoblar ro'yhati</h1>
+<br>
+<br>
+        {% for kitob in kitoblar %}
+            <h3>{{kitob.nomi}} {{kitob.muallif.ism}} {{kitob.bolim.nomi}}</h3>
+        {% endfor %}
+<br>
+<br>
+</body>
+</html>
